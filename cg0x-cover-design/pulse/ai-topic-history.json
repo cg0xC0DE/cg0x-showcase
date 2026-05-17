@@ -9,5 +9,38 @@
     "output_file": "2026-05-17 16-27.json",
     "expires_after": "2026-05-20",
     "status": "used"
+  },
+  {
+    "date": "2026-05-17",
+    "canonical_name": "OpenAI 推出可连接银行账户的 ChatGPT Personal Finance",
+    "source_window": [
+      "2026-05-15",
+      "2026-05-17"
+    ],
+    "output_file": "2026-05-17 17-05.json",
+    "expires_after": "2026-05-20",
+    "status": "used"
+  },
+  {
+    "date": "2026-05-17",
+    "canonical_name": "Andon Labs 四个 AI 电台实验暴露模型失控叙事风险",
+    "source_window": [
+      "2026-05-15",
+      "2026-05-17"
+    ],
+    "output_file": "2026-05-17 18-02.json",
+    "expires_after": "2026-05-20",
+    "status": "used"
+  },
+  {
+    "date": "2026-05-17",
+    "canonical_name": "美国 AI 暴露岗位开始出现真实失业迹象",
+    "source_window": [
+      "2026-05-15",
+      "2026-05-17"
+    ],
+    "output_file": "2026-05-17 19-02.json",
+    "expires_after": "2026-05-20",
+    "status": "used"
   }
 ]
