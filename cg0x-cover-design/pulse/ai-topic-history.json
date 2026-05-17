@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-05-17",
+    "canonical_name": "Google 披露首个 AI 辅助零日漏洞被用于构造绕过 2FA 的攻击",
+    "source_window": [
+      "2026-05-11",
+      "2026-05-12"
+    ],
+    "output_file": "2026-05-17 16-27.json",
+    "expires_after": "2026-05-20",
+    "status": "used"
+  }
+]
