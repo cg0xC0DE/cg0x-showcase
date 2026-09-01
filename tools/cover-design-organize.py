@@ -77,51 +77,70 @@ def scan_gallery() -> set:
 
 # ── Commands ──────────────────────────────────────────────────────────────
 
-def cmd_process_incoming(dry_run: bool):
-    """Move incoming PNGs → gallery/{fid}.png, update catalog."""
-    if not INCOMING_DIR.exists():
-        print(f"incoming/ not found: {INCOMING_DIR}")
-        return
-
-    # Collect all PNG files (skip README, etc.)
-    files = sorted(f for f in INCOMING_DIR.iterdir()
-                   if f.suffix == IMAGE_EXT and f.is_file())
-    if not files:
-        print("incoming/ — no new images.")
-        return
-
+def cmd_sync(dry_run: bool):
+    """Sync catalog with filesystem: add from incoming, remove deleted from gallery."""
     catalog = load_catalog()
     used = all_fids(catalog)
-    existing_names = {item["name"] for item in catalog["items"]}
+    changed = False
+
+    # ── 1. Process incoming ──────────────────────────────────────────────
     added = 0
+    if INCOMING_DIR.exists():
+        files = sorted(f for f in INCOMING_DIR.iterdir()
+                       if f.suffix == IMAGE_EXT and f.is_file())
+        if files:
+            existing_names = {item["name"] for item in catalog["items"]}
+            print(f"Found {len(files)} images in incoming/")
+            for f in files:
+                name = f.stem
+                if name in existing_names:
+                    print(f"  SKIP (exists): {name}")
+                    continue
 
-    print(f"Found {len(files)} images in incoming/")
+                fid = gen_id(used)
+                dst = GALLERY_DIR / f"{fid}{IMAGE_EXT}"
 
-    for f in files:
-        name = f.stem  # Chinese filename without .png
-        if name in existing_names:
-            print(f"  SKIP (exists): {name}")
-            continue
+                if not dry_run:
+                    GALLERY_DIR.mkdir(parents=True, exist_ok=True)
+                    shutil.move(str(f), str(dst))
+                verb = "[dry]" if dry_run else "MOVE"
+                print(f"  {verb} [{fid}] {name}")
 
-        fid = gen_id(used)
-        dst = GALLERY_DIR / f"{fid}{IMAGE_EXT}"
+                catalog["items"].append({
+                    "fid": fid,
+                    "name": name,
+                    "batch": CURRENT_BATCH,
+                })
+                existing_names.add(name)
+                added += 1
+        else:
+            print("incoming/ — no new images.")
+    else:
+        print("incoming/ — not found, skipping.")
 
-        if not dry_run:
-            GALLERY_DIR.mkdir(parents=True, exist_ok=True)
-            shutil.move(str(f), str(dst))
-        verb = "[dry]" if dry_run else "MOVE"
-        print(f"  {verb} [{fid}] {name}")
+    # ── 2. Detect deletions from gallery ─────────────────────────────────
+    on_disk = scan_gallery()
+    removed = 0
+    kept = []
+    for item in catalog["items"]:
+        if item["fid"] not in on_disk:
+            verb = "[dry]" if dry_run else "REMOVE"
+            print(f"  {verb} from catalog: {item['fid']} ({item['name']})")
+            removed += 1
+        else:
+            kept.append(item)
 
-        catalog["items"].append({
-            "fid": fid,
-            "name": name,
-            "batch": CURRENT_BATCH,
-        })
-        existing_names.add(name)
-        added += 1
+    if removed > 0:
+        catalog["items"] = kept
 
-    print(f"\nAdded {added} images.")
-    if not dry_run and added > 0:
+    # ── 3. Summary & save ────────────────────────────────────────────────
+    if added or removed:
+        changed = True
+        print(f"\n+{added} added, -{removed} removed.")
+    else:
+        print("\nNo changes.")
+
+    if changed and not dry_run:
         save_catalog(catalog)
         print("catalog.json updated.")
 
@@ -229,7 +248,7 @@ def main():
     elif "--check" in args:
         cmd_check()
     else:
-        cmd_process_incoming(dry)
+        cmd_sync(dry)
         cmd_check()
 
 

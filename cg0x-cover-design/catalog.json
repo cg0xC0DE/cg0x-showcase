@@ -1,92 +1,8 @@
 {
   "items": [
     {
-      "fid": "26px",
-      "name": "三段横向断层 × 标题夹在噪声之间",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "dbuy",
-      "name": "三段横向断层 × 高内容密度编辑页",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "nxxl",
-      "name": "上下窄栏 × 中央旧信号标题",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "ayav",
-      "name": "中轴压缩标题 × 四周旧屏噪声",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "l05k",
-      "name": "低保真互联网 × Newsletter Header 长文头图框架",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
       "fid": "5lu6",
       "name": "低保真互联网 × 字体海报框架",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "7hut",
-      "name": "低保真互联网 × 技术手册框架",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "10yl",
-      "name": "低保真互联网 × 独立 zine 框架",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "je4n",
-      "name": "低保真互联网 × 评论专栏框架",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "vgf0",
-      "name": "低保真互联网｜基础版母卡",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "x2z9",
-      "name": "低清浮层叠页 × 标题夹在两层之间",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "zae1",
-      "name": "低清索引页 × 多级索引秩序",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "5f6b",
-      "name": "低清索引页 × 标题作为检索入口",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "vg93",
-      "name": "侧边目录栏 × 主标题宽幅铺开",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "i8et",
-      "name": "侧边目录栏 × 多层编辑信息",
       "batch": "legacy",
       "old_group": "lo-fi"
     },
@@ -97,110 +13,8 @@
       "old_group": "lo-fi"
     },
     {
-      "fid": "g204",
-      "name": "像素水印底纹 × 标题清洁浮出",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "69yv",
-      "name": "加载失败空框 × 标题绕开空缺",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "iysm",
-      "name": "右上标题 × 左下噪点空屏",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "l9o6",
-      "name": "左侧标题墙 × 右侧像素残页",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "l05p",
-      "name": "巨大留白空屏 × 微型标题注释",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "qb15",
-      "name": "底部标题带 × 上方旧网页空气",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "y0mt",
-      "name": "扫描归档页 × 旧互联网被收进文件",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "ak2e",
-      "name": "旧网页折页 × 标题压在折线旁",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "7yxy",
-      "name": "旧网页裁切边 × 标题压在切口旁",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "6bke",
-      "name": "标题漂浮在噪声层上 × 半透明屏幕膜",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "q1ou",
-      "name": "论坛回声版式 × 标题像一条被置顶的主题",
-      "batch": "legacy",
-      "old_group": "lo-fi"
-    },
-    {
-      "fid": "9mq3",
-      "name": "克里姆特的金色装饰 基础版",
-      "batch": "legacy",
-      "old_group": "klimt"
-    },
-    {
-      "fid": "844k",
-      "name": "克里姆特的金色装饰 高内容容量版",
-      "batch": "legacy",
-      "old_group": "klimt"
-    },
-    {
-      "fid": "cpjz",
-      "name": "克里姆特金色 几何也太玻璃",
-      "batch": "legacy",
-      "old_group": "klimt"
-    },
-    {
-      "fid": "ofew",
-      "name": "克里姆特金色 层间 整页液态玻璃场",
-      "batch": "legacy",
-      "old_group": "klimt"
-    },
-    {
-      "fid": "m5t5",
-      "name": "办公室玻璃夜间反射",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
       "fid": "ihg3",
       "name": "展柜玻璃板",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
-      "fid": "b8m1",
-      "name": "扫描仪玻璃",
       "batch": "legacy",
       "old_group": "glass"
     },
@@ -211,38 +25,8 @@
       "old_group": "glass"
     },
     {
-      "fid": "ipxq",
-      "name": "旧相框玻璃",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
-      "fid": "s3wt",
-      "name": "毛玻璃虚化背景",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
       "fid": "htwj",
       "name": "浴室雾面镜",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
-      "fid": "f3gt",
-      "name": "温室玻璃",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
-      "fid": "vjwi",
-      "name": "玻璃砖墙",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
-      "fid": "z7vh",
-      "name": "生活窗磨砂玻璃",
       "batch": "legacy",
       "old_group": "glass"
     },
@@ -253,62 +37,8 @@
       "old_group": "glass"
     },
     {
-      "fid": "aht7",
-      "name": "雨窗毛玻璃",
-      "batch": "legacy",
-      "old_group": "glass"
-    },
-    {
       "fid": "6xmu",
       "name": "包豪斯学校设计",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "yjlz",
-      "name": "包豪斯工业功能",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "g6aa",
-      "name": "包豪斯弱蒙德里安",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "14wp",
-      "name": "强包豪斯",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "lf63",
-      "name": "强蒙德里安",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "464g",
-      "name": "蒙德里安",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "bxyg",
-      "name": "蒙德里安单色未来车票",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "neg3",
-      "name": "蒙德里安单色满版格信息墙",
-      "batch": "legacy",
-      "old_group": "bauhaus-mondrian"
-    },
-    {
-      "fid": "d98s",
-      "name": "蒙德里安满版格信息墙",
       "batch": "legacy",
       "old_group": "bauhaus-mondrian"
     },
@@ -319,218 +49,14 @@
       "old_group": "bauhaus-mondrian"
     },
     {
-      "fid": "oiwo",
-      "name": "宋画空灵 × 学术期刊框架",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "idu7",
-      "name": "宋画空灵 × 学术编辑页",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "d3u6",
-      "name": "宋画空灵 × 档案袋 研究卡片框架",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "goe6",
-      "name": "宋画空灵 × 横向分栏编辑页",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "h68o",
-      "name": "宋画空灵 × 注释页 批注页",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "z9qo",
-      "name": "宋画空灵 × 现代出版物框架",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "56z9",
-      "name": "宋画空灵 × 现代出版物目录页",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "ce7t",
-      "name": "宋画空灵 × 艺术画册框架",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "ib22",
-      "name": "宋风空灵 × 亚克力透明展陈",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "afc6",
-      "name": "宋风空灵 × 明式木作比例",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "uh56",
-      "name": "宋风空灵 × 竹编低密网格",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "04vt",
-      "name": "水纹入声",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "ztxl",
-      "name": "砚痕 墨池水痕：AI 审美 抽象表达 创作方法",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "w7fc",
-      "name": "砚痕生成",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "hwxp",
-      "name": "窗影成格",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "ou1u",
-      "name": "窗棂投影：设计 AI 结构化知识",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "k3et",
-      "name": "竹影入页",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "yv1x",
-      "name": "竹影：AI 科技 产品工具 理性审美",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "fgy9",
-      "name": "茶汽：写作 思考 生活方式 独处内容",
-      "batch": "legacy",
-      "old_group": "guofeng"
-    },
-    {
-      "fid": "hl4q",
-      "name": "巴洛克 × 字眉字脚成立版",
-      "batch": "legacy",
-      "old_group": "baroque"
-    },
-    {
-      "fid": "5jnq",
-      "name": "巴洛克内容富裕光耀",
-      "batch": "legacy",
-      "old_group": "baroque"
-    },
-    {
-      "fid": "wcfb",
-      "name": "巴洛克内容富裕暗场",
-      "batch": "legacy",
-      "old_group": "baroque"
-    },
-    {
       "fid": "43ca",
       "name": "巴洛克富裕战损",
       "batch": "legacy",
       "old_group": "baroque"
     },
     {
-      "fid": "r148",
-      "name": "巴洛克封面成立版",
-      "batch": "legacy",
-      "old_group": "baroque"
-    },
-    {
-      "fid": "7123",
-      "name": "巴洛克纯血",
-      "batch": "legacy",
-      "old_group": "baroque"
-    },
-    {
-      "fid": "lrgo",
-      "name": "慕夏 · 广告海报",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "e0oa",
-      "name": "慕夏 · 标题牌强化版",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "tjke",
-      "name": "慕夏 · 花藤边框",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "z5xl",
-      "name": "慕夏 × 几何规训｜基础版",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "m5nw",
-      "name": "慕夏 × 奢侈包装",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
       "fid": "brfj",
       "name": "慕夏 × 更冷一点",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "mo4m",
-      "name": "慕夏 × 更出版物",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "04dx",
-      "name": "慕夏 × 档案归档",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "g0qr",
-      "name": "慕夏 × 轻衰败",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "nt7x",
-      "name": "慕夏 × 轻规训",
-      "batch": "legacy",
-      "old_group": "mucha"
-    },
-    {
-      "fid": "hyjk",
-      "name": "慕夏｜低装饰新艺术封面母版",
       "batch": "legacy",
       "old_group": "mucha"
     },
@@ -541,74 +67,8 @@
       "old_group": "misc"
     },
     {
-      "fid": "od0y",
-      "name": "未来车票.做旧",
-      "batch": "legacy",
-      "old_group": "misc"
-    },
-    {
-      "fid": "ais7",
-      "name": "洛可可 × 上三分之一题名牌",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "69e2",
-      "name": "洛可可 × 中轴偏上小标题底部装饰带",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "bk21",
-      "name": "洛可可 × 偏下标题上方空气装饰",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "0z0r",
-      "name": "洛可可 × 分栏标题曲线穿插",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "tmn8",
-      "name": "洛可可 × 双栏错位题签",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "97e0",
-      "name": "洛可可 × 右上标题左下装饰重心",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "iuwo",
-      "name": "洛可可 × 坐标式装饰定位",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "nwz6",
-      "name": "洛可可 × 奢侈包装",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "jixs",
-      "name": "洛可可 × 左上小标题右侧装饰帘幕",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
       "fid": "5zjc",
       "name": "洛可可 × 巨字裁切标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "r31p",
-      "name": "洛可可 × 悬浮批注标题",
       "batch": "legacy",
       "old_group": "rococo"
     },
@@ -619,98 +79,8 @@
       "old_group": "rococo"
     },
     {
-      "fid": "7s5u",
-      "name": "洛可可 × 斜向页边题名带",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "ez3a",
-      "name": "洛可可 × 断裂标题轨道",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "eide",
-      "name": "洛可可 × 断面剖视标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "q69f",
-      "name": "洛可可 × 旋转页心标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "trnq",
-      "name": "洛可可 × 横向切片分页",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "6e57",
-      "name": "洛可可 × 消失编号位",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "ewq0",
-      "name": "洛可可 × 现代几何秩序",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "zr0i",
-      "name": "洛可可 × 盲压暗纹标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "u0q7",
-      "name": "洛可可 × 空白中心 环绕边缘标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "uvyk",
-      "name": "洛可可 × 竖向索引栏横向标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "smwd",
-      "name": "洛可可 × 脚注系统标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
       "fid": "8fnu",
       "name": "洛可可 × 裁切窗口标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "l96u",
-      "name": "洛可可 × 轻衰败",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "5ijb",
-      "name": "洛可可 × 边缘目录曲线入侵",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "ik0l",
-      "name": "洛可可 × 透明纸层叠标题",
-      "batch": "legacy",
-      "old_group": "rococo"
-    },
-    {
-      "fid": "sz63",
-      "name": "洛可可纯血",
       "batch": "legacy",
       "old_group": "rococo"
     },
@@ -725,11 +95,6 @@
       "batch": "2026-05"
     },
     {
-      "fid": "2xy4",
-      "name": "低保真互联网 押井守",
-      "batch": "2026-05"
-    },
-    {
       "fid": "rxhv",
       "name": "低保真互联网 押井守2",
       "batch": "2026-05"
@@ -741,7 +106,7 @@
     },
     {
       "fid": "402o",
-      "name": "刺客细条 艾吉奥 大航海时代2",
+      "name": "乔布斯 Apple.inc 液态玻璃2",
       "batch": "2026-05"
     },
     {
@@ -797,11 +162,6 @@
     {
       "fid": "7zh4",
       "name": "炼狱-镇魔-妲己-性欲",
-      "batch": "2026-05"
-    },
-    {
-      "fid": "904z",
-      "name": "通古斯 尼古拉特斯拉 装饰主义",
       "batch": "2026-05"
     }
   ]
